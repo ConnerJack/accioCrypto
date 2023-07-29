@@ -104,6 +104,7 @@ li:last-child {
   .tab:hover {
     background-color: #1B1B1B;
     border-radius: 20px;
+       background-color: #537FD7;
   }
   
   .tab.active {
