@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+   
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+nav{
+    color: white;
+    margin: 5px 0 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+li:last-child {
+    margin-right: 50px;
+  }
+
+  .logo {
+    padding-top: 3px;
+  }
+
+
+  .tab-container{
+    color: white;
+    margin-top: 30px;
+  }
+
+.content {
+    color:  white;
+   width: 100%;
+  
+
+}
+
+.dashboard {
+    background-color: #537FD7;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.line {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width:  90px;
+  height: 5px;
+  background-color: #537FD7;
+}
+
+
+
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+    position: relative;
+  }
+  
+  .tab div {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 10px 300px;
+     background-color: #1B1B1B;
+     border-radius: 20px;
+     font-size: 20px;
+  }
+
+  .tab:hover {
+    background-color: #1B1B1B;
+    border-radius: 20px;
+  }
+  
+  .tab.active {
+    background-color: red;
+    border-radius: 20px;
+  }
+  
+  
+  
+  .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+#list {
+    padding: 0 50px;
+}
+
+
+
+
+
+
+
+  /* list view */
+
+  table {
+    
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+
+  
+
+  .red p {
+    color: red;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+  .green p {
+    color: green;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .detailCont {
+    display: flex;
+    align-items: center;
+  }
+
+  .detailCont img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+ .curname{
+    color: gray;
+    font-size: 14px;
+ }
+
+
+
+
+ /* Grid View */
+  
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.cardimgcont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1B1B;
+    margin: 10px;
+    padding: 20px 10px 60px 20px;
+    border-radius: 20px;
+    
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding:0 50px ;
+    
+}
+
+.percentage {
+    width: 100px;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+}
+
+.volume {
+    margin-bottom: 20px;
+}

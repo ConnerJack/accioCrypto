@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <h2>CryptoTracker</h2>
+        </div>
+        <div class="nav-item">
+            <ul>
+                <li>Home</li>
+                <li>Compare</li>
+                <li>Watchlist</li>
+                <li class="dashboard">Dashboard</li>
+            </ul>
+        </div>
+       
+    </nav>
+    
+    <div class="tab-container">
+        <ul class="tabs">
+            <li data-tab-target="#grid" class="active tab"><div>Grid</div></li>
+            <li  data-tab-target="#list" class="tab"><div>List</div></li>
+        </ul>
+
+        
+
+    </div>
+
+    <div class="content">
+        <div id="grid" data-tab-content class="active">
+            <div id="gridContainer">
+               
+            </div>
+          </div>
+          <div id="list" data-tab-content>
+            <div class="currency_table">
+                <table id="cur_table">
+                    
+                </table>
+            </div>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
